@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: initial;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App .checkBox_continaer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.App .checkBox_continaer input[type="checkbox"].checkbox {
+  width: 25px;
+  height: 25px;
+}
+
+.App .checkBox_continaer .label_checkbox {
+  font-size: 16px;
+  color: #373f46;
+  font-weight: bold;
+}
+
+.checkmark {
+  height: 25px;
+  width: 25px;
+  background-color: #2196f3;
+}
+
+.App .information {
+  font-size: 16px;
+  color: #0d1115;
+  font-weight: normal;
+  margin-left: 0.5ex;
+}
